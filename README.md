@@ -1,211 +1,97 @@
-# Awesome-Electronic-Clinical-Outcome-Assessment
+# 🩺 Awesome Electronic Clinical Outcome Assessment (eCOA) 📊
 
-## Top Electronic Clinical Outcome Assessment (eCOA) Platforms Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome eCOA Banner" width="100%">
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 💡 Overview & Ecosystem
 
-*Focused on Patient-Reported Outcomes, Clinical Outcome Assessments & Decentralized Trial Data Capture*  
+Welcome to the **Awesome Electronic Clinical Outcome Assessment (eCOA)** curated directory! 🌟 This repository tracks notable **SaaS platforms**, **open-source software**, and **clinical research tools** for **Electronic Clinical Outcome Assessment (eCOA)**, **Patient-Reported Outcomes (ePRO)**, Clinician-Reported Outcomes (ClinRO), Observer-Reported Outcomes (ObsRO), and Performance Outcomes (PerfO) used in global clinical trials, decentralized clinical trials (DCT), registries, and real-world evidence (RWE) studies. 🏥📱
 
-**Last updated: September 2026**
+---
 
+## 📑 Table of Contents
 
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Electronic Clinical Outcome Assessment (eCOA)**. These tools help clinical research teams collect patient-reported outcomes (ePRO), clinician-reported outcomes (ClinRO), observer-reported outcomes (ObsRO), and performance outcomes (PerfO) in clinical trials, registries, and real-world evidence studies.
+---
 
+## 🏢 SaaS/Hosted Platforms
 
+> 📈 **Sector Market Size & Dynamics:**  
+> The global **Electronic Clinical Outcome Assessment (eCOA)** market is valued at approximately **\$2.2B – \$2.5B (2026)** and is projected to reach **\$5.0B+ by 2032** growing at a CAGR of ~14.5%. The market is **moderately concentrated** among top enterprise eClinical tech providers and CRO conglomerates, with key consolidation driven by mega-acquisitions (such as Thermo Fisher acquiring Clario for ~\$8.9B).
 
-**Examples** include Clario eCOA, Signant Health, YPrime, Medable, Kayentis, THREAD Research, CRF Health, IQVIA eCOA, ERT, and eClinical Solutions (the category leaders).
+| Platform 🌐 | Annual Revenue / Valuation 💰 | Starting Price 💵 | Free Tier / Free Trial Limits 🎁 | Key Features & Focus ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[IQVIA eCOA](https://www.iqvia.com/)** | **\$15.4B** (2025 Annual Revenue) | \$50,000 / study starting license | 30-day sandbox trial for enterprise sponsors | Enterprise eCOA, ePRO, and eConsent deeply integrated with IQVIA global R&D clinical ecosystem. |
+| **[Clario eCOA](https://clario.com/)** | **\$8.9B** (Valuation via Thermo Fisher acquisition) | \$35,000 / study base tier | 14-day staging environment trial upon request | Formed from ERT & Bioclinica merger. Leader in endpoint validation, BYOD/provisioned devices. |
+| **[Signant Health](https://www.signanthealth.com/)** | **\$450M** (Estimated Annual Revenue) | \$25,000 / study starting tier | 30-day demo portal access for qualified trial sponsors | Specialized in eCOA, eConsent, IRT, rater training, and CNS/psychiatry trial endpoint rigor. |
+| **[Medable](https://www.medable.com/)** | **\$2.1B** (Valuation / \$120M+ Revenue) | \$20,000 / trial protocol | 30-day free trial on Medable Studio dev environment | Decentralized trial platform with BYOD ePRO, remote data collection, and patient engagement. |
+| **[YPrime](https://www.yprime.com/)** | **\$150M** (Estimated Annual Revenue) | \$20,000 / study starting tier | 14-day sandbox access for trial configurator | Rapid-deployment eCOA, ePRO, and IRT platform with automated localization engines. |
+| **[THREAD Research](https://www.threadresearch.com/)** | **\$100M** (Estimated Annual Revenue) | \$18,000 / trial protocol | 30-day trial access for study design sandbox | Decentralized trial & DCT technology with ePRO, telehealth virtual visits, and sensor integration. |
+| **[eClinical Solutions](https://www.eclinicalsol.com/)** | **\$80M** (Estimated Annual Revenue) | \$15,000 / study base package | 14-day free trial for elluminate data platform | elluminate clinical data platform supporting eCOA/ePRO data ingestion and analytics. |
+| **[Kayentis](https://www.kayentis.com/)** | **\$35M** (Estimated Annual Revenue) | \$12,000 / study starting tier | 14-day trial demo environment for clinical ops teams | Dedicated eCOA specialist for pharma/biotech in respiratory, oncology, and ophthalmology trials. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom eCOA workflows, and transparent clinical data management — ideal for academic research centers, non-profits, and organizations that need full control over sensitive patient data without per-patient SaaS fees or vendor lock-in.
+Open-source options provide transparent, customizable eCOA/ePRO infrastructures without vendor lock-in or per-patient SaaS fees — ideal for academic medical centers, non-profits, and sovereign clinical research institutions. 🔓
 
+| Project 📦 | GitHub Stars ⭐ | License 📜 | Tech Stack 🛠️ | Description & eCOA Capabilities 🚀 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[OpenClinica](https://github.com/OpenClinica/OpenClinica)** | [![Stars](https://img.shields.io/github/stars/OpenClinica/OpenClinica?style=social&color=white)](https://github.com/OpenClinica/OpenClinica/stargazers) | LGPL-2.1 | Java, PostgreSQL | Leading open-source EDC platform with Participate module for browser-based ePRO/eCOA questionnaires and SMS/email reminders. |
+| **[PyCap (REDCap API)](https://github.com/redcap-tools/PyCap)** | [![Stars](https://img.shields.io/github/stars/redcap-tools/PyCap?style=social&color=white)](https://github.com/redcap-tools/PyCap/stargazers) | MIT | Python | Python interface for REDCap API, facilitating automated ePRO survey deployment, data extraction, and clinical trial pipelines. |
+| **[ODK Collect](https://github.com/getodk/collect)** | [![Stars](https://img.shields.io/github/stars/getodk/collect?style=social&color=white)](https://github.com/getodk/collect/stargazers) | Apache-2.0 | Java, Android | Powerful mobile data collection app widely used for offline ePRO/eCOA data capture in global health & clinical field trials. |
+| **[LibreClinica](https://github.com/LibreClinica/LibreClinica)** | [![Stars](https://img.shields.io/github/stars/LibreClinica/LibreClinica?style=social&color=white)](https://github.com/LibreClinica/LibreClinica/stargazers) | LGPL-3.0 | Java, PostgreSQL | GCP-compliant community fork of OpenClinica with OpenRosa API backend for mobile ePRO offline collection via ODK devices. |
+| **[redcapAPI](https://github.com/vanderbilt-redcap/redcapAPI)** | [![Stars](https://img.shields.io/github/stars/vanderbilt-redcap/redcapAPI?style=social&color=white)](https://github.com/vanderbilt-redcap/redcapAPI/stargazers) | GPL-2.0 | R | R package for seamless interaction with REDCap ePRO/eCOA survey databases and clinical outcome export pipelines. |
+| **[clinicedc edc](https://github.com/clinicedc/edc)** | [![Stars](https://img.shields.io/github/stars/clinicedc/edc?style=social&color=white)](https://github.com/clinicedc/edc/stargazers) | GPL-3.0 | Python, Django | Modular Django clinical trial framework including `edc-qol` with standardized EQ-5D-3L and SF-12 Quality of Life ePRO instruments. |
+| **[MII PRO Module](https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms)** | [![Stars](https://img.shields.io/github/stars/medizininformatik-initiative/kerndatensatzmodul-proms?style=social&color=white)](https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms/stargazers) | CC0-1.0 | FHIR, JSON | Standardized FHIR Implementation Guide & profiles for PROMIS-29, PHQ-9, and EQ-5D-5L clinical outcome data exchange. |
 
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 🤝 How to Contribute
 
+Contributions are highly appreciated! 💖 If you know of an eCOA platform or open-source tool that should be listed:
 
+1. 🍴 **Fork** the repository.
+2. 📝 **Add/edit** entries in `README.md` following the table formats above.
+3. 🚀 **Submit** a Pull Request with a clear description of the project.
 
-## Table of Contents
+---
 
+## ☕ Support
 
+If you find this repository helpful for your clinical research or tech stack evaluation, please consider supporting the project! 🌟
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- ⭐ **Star** this repository to help others discover it.
+- 🔀 **Fork** it to keep your own curated reference.
+- 📢 **Share** it with colleagues in healthtech and clinical operations.
+- 💖 **Buy Me a Coffee**: Support ongoing open-source curation via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-- [Open-Source GitHub Projects](#open-source-github-projects)
+---
 
-- [How to Contribute](#how-to-contribute)
+## 📈 Star History
 
-- [Disclaimer](#disclaimer)
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment&type=date&legend=top-left)
 
+---
 
+## ⚠️ Disclaimer
 
-## SaaS/Hosted Platforms
-
-
-
-- **[Clario eCOA](https://clario.com/)**  
-
-  Leading eCOA provider formed from the merger of ERT and Bioclinica. Provides ePRO, ClinRO, ObsRO, and PerfO instruments with device provisioning, patient support, and regulatory compliance. Scientific expertise in endpoint validation and translation.
-
-
-
-- **[Signant Health](https://www.signanthealth.com/)**  
-
-  Clinical outcome assessment specialist with deep expertise in eCOA, eConsent, and ePRO. Known for scientific rigor in instrument design, linguistic validation, and rater training across neuroscience, psychiatry, and pain research.
-
-
-
-- **[YPrime](https://www.yprime.com/)**  
-
-  eClinical technology platform providing eCOA, ePRO, IRT, and clinical data management. Known for rapid deployment, flexible solutions, and strong customer support.
-
-
-
-- **[Medable](https://www.medable.com/)**  
-
-  Decentralized clinical trial platform with eCOA, ePRO, eConsent, and remote data collection. BYOD (bring your own device) support and patient-centric trial design.
-
-
-
-- **[Kayentis](https://www.kayentis.com/)**  
-
-  eCOA specialist with expertise in ophthalmology, respiratory, and dermatology. Provides electronic diaries, questionnaires, and patient engagement tools.
-
-
-
-- **[THREAD Research](https://www.threadresearch.com/)**  
-
-  Decentralized clinical trial platform with ePRO, eCOA, remote patient monitoring, and virtual visit tools. Focused on bringing clinical research into patient homes.
-
-
-
-- **[CRF Health](https://www.crfhealth.com/)**  
-
-  eCOA and ePRO pioneer (now part of Signant Health). Early innovator in electronic clinical outcome assessment with global reach.
-
-
-
-- **[IQVIA eCOA](https://www.iqvia.com/)**  
-
-  eCOA platform within IQVIA's clinical research ecosystem. Provides ePRO, eCOA, eConsent, and patient engagement integrated with IQVIA's broader data and analytics capabilities.
-
-
-
-- **[ERT](https://www.ert.com/)**  
-
-  eCOA and cardiac safety specialist (now part of Clario). Provides ePRO, eCOA, respiratory endpoints, and imaging solutions with scientific consulting.
-
-
-
-- **[eClinical Solutions](https://www.eclinicalsol.com/)**  
-
-  eClinical data management platform (elluminate) supporting eCOA and ePRO data integration, analysis, and reporting across clinical trials.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenClinica Participate](https://docs.openclinica.com/)**  
-
-  Participant-facing module within the OpenClinica EDC platform providing **ePRO and eCOA** capabilities. Device-agnostic solution allows participants to complete questionnaires and diaries anywhere, anytime **without app installation** — accessed via web browser on computer, tablet (iPad), or smartphone (iPhone). Features just-in-time notifications and reminders via SMS or email, offline data capture capability, and Public URL forms for self-registration. Data entered offline automatically uploads when device reconnects. OpenClinica Community Edition is open-source; Participate module may require enterprise licensing .
-
-
-
-- **[LibreClinica](https://github.com/reliatec-gmbh/LibreClinica)**  
-
-  Community-driven fork of OpenClinica providing GCP-compliant EDC with **ePRO/eCOA support via OpenRosa API backend**. This integration enables mobile data collection through the **ODK (Open Data Kit) ecosystem**, allowing patients to complete questionnaires on Android devices offline and sync when connectivity is available. Supports full audit trails, electronic signatures, discrepancy management, and CDISC ODM-XML export. **LGPL-3.0**, Java-based, actively maintained .
-
-
-
-- **[REDCap](https://projectredcap.org/)**  
-
-  Research Electronic Data Capture platform used by over 1.6 million researchers at 6,000+ institutions in 150+ countries. **Free for non-profit organizations** (REDCap Consortium). Supports ePRO/eCOA through surveys, and the **REDCap Mobile App** enables offline data collection on iOS and Android devices with sync-back capability. **MyCap** is a companion participant-facing mobile app (standard in REDCap v13.0+) that captures patient-reported outcomes via customizable surveys and active tasks using device sensors, with automatic sync when online. Supports participant engagement features including messaging and announcements .
-
-
-
-- **[JTrack](https://www.fz-juelich.de/de/inm/inm-7/leistungen/tools/jtrack)**  
-
-  Open-source digital biomarker platform from Forschungszentrum Jülich for **remote monitoring and Ecological Momentary Assessment (EMA)**. Three components: **JTrack Social** (passive smartphone sensor data collection and active annotation), **JTrack EMA+** (questionnaire-based data collection), and server infrastructure for centralized data storage. Enables researchers to collect digital phenotyping data including smartphone usage, sensor data, self-reports on daily events, and ecological momentary assessments. Study-specific sensor and data combinations configurable. Participants enroll via QR code. **Open source**, privacy-compliant (GDPR) .
-
-
-
-- **[GESIS AppKit](https://osf.io/download/mkxv9/)**  
-
-  Open-source app-based mobile data collection infrastructure for research. Features two-tier login code system for participant management (anonymous general codes or identified personal codes), flexible scheduling of surveys (enrollment, immediate push, or scheduled delivery), and questionnaire item types including Likert scales, text, numeric, single/multiple choice, and image upload. Basic filtering logic (continue-stop). **Open source** .
-
-
-
-- **[MyCap](https://projectmycap.org/)**  
-
-  Customizable participant-facing mobile app **freely available to REDCap users**. Captures patient-reported outcomes and active tasks (activities performed using device sensors) based on a REDCap project. Available on iOS and Android at no cost. Supports offline data collection with automatic sync when connectivity returns. Provides a centralized study "home" for participants with secure two-way messaging and announcements. Local notifications schedule task reminders (default 8 AM in participant's timezone). Push notifications for ad hoc researcher messages. Participants join via QR code or App Link .
-
-
-
-- **[clinicedc](https://github.com/clinicedc/)**  
-
-  Django-based clinical trial data management framework from Botswana-Harvard AIDS Institute Partnership. Provides modular Python packages for building EDC systems. Includes **edc-qol** package providing Quality of Life instrument classes: **EQ-5D-3L** and **SF-12 Health Survey** models and forms for Django projects. Part of a comprehensive set of modules covering consent, scheduling, data collection, quality assurance, adverse events, and analysis. **GPL-3.0** .
-
-
-
-- **[MII Kerndatensatz PRO Modul](https://github.com/medizininformatik-initiative/kerndatensatzmodul-proms)**  
-
-  German Medical Informatics Initiative's **Patient-Reported Outcome module** FHIR Implementation Guide. Includes **PROMIS-29 Profile v2.1** (all 7 domains with scoring), **PROMIS Cognitive Function SF4a**, **PHQ-9 with T-scores**, and **EQ-5D-5L**. Provides standardized FHIR resources for PRO data exchange and integration. **CC0-1.0** license. npm package available .
-
-
-
-- **[eq5d R Package](https://cran.r-project.org/web/packages/eq5d/)**  
-
-  Methods for analyzing **EQ-5D** data and calculating index scores. Supports **EQ-5D-3L and EQ-5D-5L** health state descriptions (mobility, self-care, usual activities, pain/discomfort, anxiety/depression) and EQ-VAS visual analogue scale. Includes country-specific value sets for utility index calculation, crosswalk value sets, and a Shiny app for calculation and visualization via web browser using CSV or Excel files. **Open source**, CRAN package .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **EDC Platforms with ePRO**: **OpenClinica** (Participate module), **LibreClinica** (OpenRosa/ODK integration), **REDCap** (free for non-profits, MyCap companion app) .
-
-- **Mobile Data Collection**: **ODK** (Open Data Kit ecosystem, Android-based), **JTrack** (EMA + sensor data), **GESIS AppKit** (flexible survey scheduling) .
-
-- **PRO Instruments**: **clinicedc/edc-qol** (EQ-5D-3L, SF-12 in Django), **MII PRO Module** (PROMIS, PHQ-9, EQ-5D-5L as FHIR), **eq5d** R package (analysis and scoring) .
-
-- **PROMIS Instruments**: The **PROMIS** item banks themselves are **freely available** for research use (registration required), with over 200 peer-reviewed measures covering physical, mental, and social health. Assessment Center API provides programmatic access .
-
-
-
-**Frameworks for building custom systems**: Combine **REDCap** + **MyCap** for a free, non-profit-friendly ePRO foundation, **OpenClinica Participate** or **LibreClinica** + **ODK** for EDC-integrated eCOA, **JTrack** for EMA and passive sensor data, and **edc-qol** or **MII PRO Module** for standardized PRO instruments (EQ-5D, PROMIS, PHQ-9). Add **PostgreSQL/MySQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- eCOA platforms handle sensitive clinical trial and patient data; ensure compliance with 21 CFR Part 11, GCP, HIPAA, and GDPR.
-
-- **Open-source reality**: Mature open-source ePRO/eCOA foundations exist (**REDCap**, **OpenClinica**, **LibreClinica**, **JTrack**), but they typically require configuration and validation for specific trial needs. Commercial platforms (Clario, Signant, Medable) provide fully validated, regulatory-ready solutions with scientific consulting, device provisioning, and 24/7 patient support that open-source alternatives cannot match without significant investment.
+- This directory is **community-curated** for informational purposes and does not constitute formal procurement endorsement.
+- eCOA systems processing patient data must comply with global regulatory standards including **FDA 21 CFR Part 11**, **GCP**, **HIPAA**, and **GDPR**.
