@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment?style=social" alt="GitHub stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment?style=social" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Electronic-Clinical-Outcome-Assessment/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg" alt="License"></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -52,7 +52,7 @@ Welcome to the **Awesome Electronic Clinical Outcome Assessment (eCOA)** curated
 
 Open-source options provide transparent, customizable eCOA/ePRO infrastructures without vendor lock-in or per-patient SaaS fees — ideal for academic medical centers, non-profits, and sovereign clinical research institutions. 🔓
 
-| Project 📦 | GitHub Stars ⭐ | License 📜 | Tech Stack 🛠️ | Description & eCOA Capabilities 🚀 |
+| Project 📦 | GitHub_Stars ⭐ | License 📜 | Tech Stack 🛠️ | Description & eCOA Capabilities 🚀 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[OpenClinica](https://github.com/OpenClinica/OpenClinica)** | [![Stars](https://img.shields.io/github/stars/OpenClinica/OpenClinica?style=social&color=white)](https://github.com/OpenClinica/OpenClinica/stargazers) | LGPL-2.1 | Java, PostgreSQL | Leading open-source EDC platform with Participate module for browser-based ePRO/eCOA questionnaires and SMS/email reminders. |
 | **[PyCap (REDCap API)](https://github.com/redcap-tools/PyCap)** | [![Stars](https://img.shields.io/github/stars/redcap-tools/PyCap?style=social&color=white)](https://github.com/redcap-tools/PyCap/stargazers) | MIT | Python | Python interface for REDCap API, facilitating automated ePRO survey deployment, data extraction, and clinical trial pipelines. |
